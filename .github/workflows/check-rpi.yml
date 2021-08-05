@@ -5,7 +5,7 @@ name: Check RaspberryPi
 
 on:
   schedule:
-    - cron: '*/5 * * * *'
+    - cron: '* * * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
