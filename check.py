@@ -4,7 +4,7 @@ import requests as rq
 import os
 
 env = os.environ
-L7URL = env['L7URL'] if 'L7URL' in env else 'https://www.naver.coma'
+L7URL = env['L7URL'] if 'L7URL' in env else 'https://www.naver.com'
 ERROR_FILE = env['ERROR_FILE'] if 'ERROR_FILE' in env else 'error.txt'
 
 ERROR_MESSAGE = 'unknown error'
