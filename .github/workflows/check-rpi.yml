@@ -9,6 +9,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      L7URL: https://jhan.me?actions_check
+      ERROR_FILE: error.txt
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python 3.9
